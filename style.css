@@ -1,0 +1,77 @@
+@font-face {
+  font-family: InterR;
+  src: url(assets/fonts/static/Inter-Regular.ttf);
+}
+@font-face {
+  font-family: InterSB;
+  src: url(assets/fonts/static/Inter-SemiBold.ttf);
+}
+@font-face {
+  font-family: InterB;
+  src: url(assets/fonts/static/Inter-Bold.ttf);
+}
+body {
+  margin: 0;
+  padding: 3em 0;
+  display: flex;
+  justify-content: center;
+  background-color: hsl(0, 0%, 8%);
+  align-items: center;
+}
+.container {
+  font-family: InterR, monospace;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  justify-content: center;
+  text-align: center;
+  width: 350px;
+  color: white;
+  background-color: hsl(0, 0%, 12%);
+  padding: 2.5em 1em 1.5em 1em;
+  align-items: center;
+  border-radius: 0.7em;
+  box-shadow: 0.1px 0.1px 2px grey;
+}
+/* 
+if we were to make a the whole box a link basically turning the whole div into a link
+you will have to target style the anchor elements
+Otherwise you will have a box but only the text are clickable
+*/
+.social-link a {
+  text-decoration: none;
+  display: block;
+  color: white;
+  padding: 1.1em 0.4em;
+  margin: 7px 0;
+  border-radius: 8px;
+  background-color: hsl(0, 0%, 20%);
+  width: 20em;
+  font-size: 0.8em;
+  font-family: InterSB, monospace;
+}
+.social-link a:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: black;
+  transform: scale(1.04);
+  transition: 0.4s;
+}
+#profile-pic img {
+  width: 60%;
+  border-radius: 100px;
+  margin-bottom: 1.3em;
+}
+#name {
+  font-size: 1.5em;
+  font-family: InterB, monospace;
+  margin-bottom: 0.3em;
+}
+#location {
+  color: hsl(75, 94%, 57%);
+  font-size: 0.8em;
+}
+#bio {
+  font-size: 0.75em;
+  margin: 2.5em 0 1.1em 0;
+}
