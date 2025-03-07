@@ -12,18 +12,16 @@
 }
 body {
   margin: 0;
-  padding: 3em 0;
   display: flex;
   justify-content: center;
   background-color: hsl(0, 0%, 8%);
   align-items: center;
+  height: 100vh;
 }
 .container {
   font-family: InterR, monospace;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  width: 50%;
   justify-content: center;
   text-align: center;
   width: 350px;
